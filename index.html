@@ -1,0 +1,375 @@
+<html>
+<head>
+	<title>Glydel-logo</title>
+	<style type="text/css">
+		html{ padding:50px;}
+.logo {
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    margin-left:25%;
+}
+.right {
+	position: relative;
+	background: #fff;
+    left:55px;
+}
+.right:after, .right:before {
+	border: solid transparent;
+	content: " ";
+	position: absolute;
+}
+
+.right:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-left-color: #fff;
+	border-width: 10px 25px;
+  left: 3px;
+  top: 5px;
+}
+.right:before {
+	border-color: #fff;
+	border-left-color: #e74f1c;
+	border-width:15px 0px 15px 35px;
+}
+
+/*Common Styles*/
+.center:after,.center:before ,.center-in:after,.center-in:before ,.center-up:after,.center-up:before,
+.center-down:after,.center-down:before,.left:before,.left-in:before,.left-down:after,.left-down-in:before{
+  content: " ";
+  position:absolute;
+  pointer-events: none;
+  background:#fff;
+  top: 0;
+  left:0;
+  transform-origin: 0 0;
+  box-sizing: border-box;
+}
+/*--center style---*/
+.center-in{
+	display: block;
+  position: relative;
+  background: #fff;
+  z-index: 3;
+  left: 5px;
+  top: -78px;
+}
+.center-in:after {
+    width: 40px;
+    height: 45px;
+    top: -1px;
+    left: -2px;
+    border-bottom: 5px solid #e04e5e;
+    border-left: 5px solid #e04e5e;
+    transform: rotate(105deg) skew(39deg,18deg);
+}
+.center-in:before {
+    width: 53px;
+    height: 57px;
+    border-top: 3px solid #e04e5e;
+    border-right: 3px solid #e04e5e;
+    transform: rotate(140deg) skew(37deg,-45deg);
+}
+.center {
+    top:78px;
+    left:48px;
+    position:relative;
+    z-index:3;
+}
+.center:after {
+
+    width: 0px;
+    height: 57px;
+    left: -10px;
+    top: 0;
+    border-bottom: 5px solid #e04e5e;
+    border-left: 5px solid #e04e5e;
+    transform: rotate(142deg) skew(38deg,0deg);
+}
+.center:before {
+    width: 63px;
+    height: 63px;
+    top: 2px;
+    left: -10px;
+    border-top: 3px solid #e04e5e;
+    border-right: 3px solid #e04e5e;
+    transform: rotate(168deg) skew(23deg,-40deg);
+}
+.center-up {
+    top:80px;
+    z-index:2;
+    left:-14px;
+    position:relative
+}
+.center-up:after {
+  width: 30px;
+  height: 58px;
+  top: -66px;
+  left: -83px;
+  border-bottom: 5px solid #e04e5e;
+  border-left: 4px solid #e04e5e;
+  transform: rotate(190deg) skew(8deg,45deg);
+}
+.center-up:before {
+  width: 48px;
+  height: 31px;
+  top: -160px;
+  left: -105px;
+  border-top: 3px solid #e04e5e;
+  border-right: 3px solid #e04e5e;
+  transform: rotate(-288deg) skew(40deg,-44deg);
+}
+.center-down {
+  position: relative;
+  top: 90px;
+  z-index: 2;
+  left: 10px;
+}
+.center-down:after {
+  width: 1px;
+  height: 120px;
+  top: -30px;
+  left: -104px;
+  bottom: 0;
+  border-bottom: 4px solid #e04e5e;
+  border-left: 4px solid #e04e5e;
+  transform: rotate(193deg) skew(8deg,45deg);
+}
+.center-down:before {
+  width: 50px;
+  height: 35px;
+  top: -154px;
+  left: -95px;
+  border-top: 2px solid #e04e5e;
+  border-right: 3px solid #e04e5e;
+  transform: rotate(-260deg) skew(65deg,-43deg);
+}
+.left,.left-in{
+  top: 155px;
+  z-index: 1;
+  left: 2px;
+  position: relative;
+  right: 0;
+}
+.left:before {
+  width: 100px;
+  height: 44px;
+  top: -78px;
+  left: -55px;
+  border-top: 2px solid #e04e5e;
+  border-right: 5px solid #e04e5e;
+  transform: rotate(179deg) skew(-59deg,16deg);
+}
+.left-in:before {
+  width: 25px;
+  height: 44px;
+  top: -238px;
+  left: -97px;
+  border-bottom: 5px solid #e04e5e;
+  border-left: 4px solid #e04e5e;
+  transform: rotate(192deg) skew(9deg,41deg);
+}
+
+.left-down,.left-down-in {
+    top: 19px;
+    left: -36px;
+    position: relative;
+}
+.left-down:after {
+  width: 25px;
+  height: 60px;
+  top: -92px;
+  left: -18px;
+  bottom: 0;
+  border-bottom: 6px solid #e04e5e;
+  border-left: 5px solid #e04e5e;
+  transform: rotate(110deg) skew(7deg,45deg);
+}
+.left-down-in:before {
+  width: 70px;
+  height: 0px;
+  content: " ";
+  position: absolute;
+  top: -91px;
+  left: -108px;
+  background: #fff;
+  border-top: 4px solid #e04e5e;
+  transform: rotate(-326deg) skew(0,-35deg);
+}
+/*--text styles--*/
+
+.G {
+ position: relative;
+  top: 30px;
+  left: 55px;
+  width: 70px;
+  height: 75px;
+  border-width: 8px 8px 8px 8px;
+  border-color: #e74f1c;
+  border-style: solid;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+.G:before{
+  position: absolute;
+  content: '';
+  top: 0px;
+  left: 40px;
+  background-color: #ffffff;
+  width: 100px;
+  height: 90px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.G:after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  right: 12px;
+  width: 28px;
+  height: 28px;
+  border-width: 8px 8px 0 0;
+  border-color: #e74f1c;
+  border-style: solid;
+}
+.L { 
+  position: relative;
+  top: 0;
+  left: 60px;
+  width: 40px;
+  height: 70px;
+  border-width: 0 0 8px 8px;
+  border-color: #e74f1c;
+  border-style: solid;
+  margin: 0 auto;
+}
+.Lone,.E {
+  position: relative;
+  top: 0;
+  left: 80px;
+  width: 55px;
+  height: 85px;
+  border-width: 0 0 8px 8px;
+  border-color: #e74f1c;
+  border-style: solid;
+  margin: 0 auto;
+}
+.Lone{
+  width: 50px;
+  height: 80px;
+  top: -300px;
+  left: 315px;
+}
+.Y {  
+  position: relative;
+  width: 3px;
+  height: 35px;
+  top: -40px;
+  left: 100px;
+  border-color: #e74f1c;
+  border-style: solid;
+  margin: 0 auto;
+  background-color: #e74f1c;
+}
+.Y:before{
+  width: 10px;
+  height: 40px;
+  position: absolute;
+  content: '';
+  top: -40px;
+  left: -18px;
+  -webkit-transform: skew(37deg, 0);
+  -moz-transform: skew(37deg, 0);
+  -ms-transform: skew(37deg, 0);
+  -o-transform: skew(37deg, 0);
+  transform: skew(37deg, 0);
+  background-color: #e74f1c;
+}
+.Y:after {
+  width: 10px;
+  height: 45px;
+  position: absolute;
+  content: '';
+  top: -45px;
+  right: -17px;
+  -webkit-transform: skew(-31deg, 0);
+  -moz-transform: skew(-31deg, 0);
+  -ms-transform: skew(-31deg, 0);
+  -o-transform: skew(-31deg, 0);
+  transform: skew(-31deg, 0);
+  background-color: #e74f1c;
+}
+.D {
+  position: relative;
+  top: -125px;
+  left: 255%;
+  border-left: solid 8px #e74f1c;
+  height: 91px;
+  margin: 0 auto;
+}
+.D:before {
+ position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 75px;
+  border-width: 8px 8px 8px 0;
+  border-color: #e74f1c;
+  border-style: solid;
+  -webkit-border-radius: 0 300% 300% 0 / 0 180% 180% 0;
+  -moz-border-radius: 0 300% 300% 0 / 0 180% 180% 0;
+  -ms-border-radius: 0 300% 300% 0 / 0 180% 180% 0;
+  -o-border-radius: 0 300% 300% 0 / 0 180% 180% 0;
+  border-radius: 0 300% 300% 0 / 0 180% 180% 0;
+}
+.E {
+  width: 48px;
+  height: 70px;
+  top: -212px;
+  left: 348%;
+  border-width: 8px 0 8px 8px;
+}
+.E:before {
+  position: absolute;
+  content: '';
+  top: 32px;
+  left: 0px;
+  width: 46px;
+  height: 8px;
+  background-color: #e74f1c;
+}
+	</style>
+</head>
+<body>
+	<div class="logo">
+    <span class="right"></span>
+    <span class="center">
+         <span class="center-in"></span>
+        <span class="center-up">
+           <span class="left-in"></span>
+           <span class="center-down"></span>
+        </span>
+    </span>
+     <span class="left">
+         <span class="left-down"></span>
+         <span class="left-down-in"></span>
+     </span>
+    <div class="text">
+        <div class="G">
+        	<div class="L"></div> 
+        	<div class="Y"></div>
+        	<div class="D"></div>
+        	<div class="E"></div>
+          <div class="Lone"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
